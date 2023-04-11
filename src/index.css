@@ -5,9 +5,84 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background: black;
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#header{
+  width: auto;
+  border: 1px solid red;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#bio-container{
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}
+
+#bio-picture{
+  /* display: inline-block; */
+  border: 1px solid red;
+  margin-left: 10px;
+  vertical-align: middle;
+  /* width: 50%; */
+}
+
+#bio-paragraph{
+  /* display: inline-block; */
+  border: 1px solid red;
+  margin-right: 10px;
+  vertical-align: middle;
+  /* width: 50%; */
+}
+
+#event-pictures{
+  border: 1px solid red;
+  width: auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#playlist{
+  border: 1px solid red;
+  width: auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#contact-form{
+  border: 1px solid red;
+  width: auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#footer{
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 5px;
+}
+
+#social-media-links{
+  border: 1px solid red;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+#created-by{
+  border: 1px solid red;
+  margin-right: 10px;
+  vertical-align: middle;
 }
